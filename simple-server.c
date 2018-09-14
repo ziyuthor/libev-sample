@@ -15,10 +15,6 @@
 
 #include <ev.h>
 
-#include <sys/prctl.h>
-//#include <thread>
-//#include <mutex>
-
 typedef struct Client {
 	ev_io rio;
 	ev_io wio;
